@@ -13,6 +13,10 @@
   ansible.builtin.user:
     name: expense
 
+- name: run app pre-requisites
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-set
 
 - name: install npm dependencies 
   ansible.builtin.shell: npm install
