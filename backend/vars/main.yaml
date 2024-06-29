@@ -1,5 +1,5 @@
 MYSQL_HOST: mysql.bigmatrix.in
 SQL_PASSWORD: ExpenseApp@1
-MY_HOST: mysql.bigmatrix.in
+# MY_HOST: mysql.bigmatrix.in
 APP_LOCATION: /app
 component: backend
