@@ -1,0 +1,3 @@
+component: frontend
+frontend_host: frontend.bigmatrix.in
+APP_LOCATION: /usr/share/nginx/html
