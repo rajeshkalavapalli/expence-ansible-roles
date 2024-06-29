@@ -1,7 +1,7 @@
-- name: installing {{component}} server 
-  hosts: {{component}} 
+- name: "installing {{component}} server" 
+  hosts: "{{component}}" 
   become: yes
   roles:
-    - {{component}}
+    - "{{component}}"
 
 
