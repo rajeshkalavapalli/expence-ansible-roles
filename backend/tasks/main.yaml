@@ -15,7 +15,7 @@
 
 
 - name: install npm dependencies 
-  ansible.builtin.command: npm install
+  ansible.builtin.shell: npm install
   args:
     chdir: "{{APP_LOCATION}}"
 
